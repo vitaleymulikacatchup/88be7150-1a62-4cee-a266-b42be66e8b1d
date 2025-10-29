@@ -44,7 +44,7 @@ export default function Home() {
           tagIcon={Coffee}
           buttons={[
             { text: "Explore Menu", href: "products" },
-            { text: "Visit Store", href: "contact" }
+            { text: "Visit", href: "contact" }
           ]}
           imageSrc="https://images.pexels.com/photos/7175956/pexels-photo-7175956.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           imagePosition="right"
