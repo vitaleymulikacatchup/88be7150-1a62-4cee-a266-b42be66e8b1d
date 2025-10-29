@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -12,6 +12,8 @@ import FaqDouble from '@/components/sections/faq/FaqDouble';
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import { Coffee, Mail, Sparkles } from 'lucide-react';
+
+const assetMap = [];
 
 export default function Home() {
   return (
@@ -43,7 +45,7 @@ export default function Home() {
           tag="Premium Coffee"
           tagIcon={Coffee}
           buttons={[
-            { text: "Explore Menu", href: "products" },
+            { text: "Let's go", href: "products" },
             { text: "Visit Store", href: "contact" }
           ]}
           imageSrc="https://images.pexels.com/photos/1462637/pexels-photo-1462637.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
