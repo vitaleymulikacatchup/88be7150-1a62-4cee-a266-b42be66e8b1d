@@ -38,7 +38,7 @@ export default function Home() {
 
       <div id="hero" data-section="hero">
         <HeroSplit
-          title="Crafted Coffee Excellence"
+          title="Coffee Excellence"
           description="Experience the perfect blend of tradition and innovation with our premium coffee selections, roasted to perfection for discerning coffee lovers."
           tag="Premium Coffee"
           tagIcon={Coffee}
@@ -46,7 +46,7 @@ export default function Home() {
             { text: "Explore Menu", href: "products" },
             { text: "Visit Store", href: "contact" }
           ]}
-          imageSrc="https://images.pexels.com/photos/7175956/pexels-photo-7175956.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+          imageSrc="https://images.pexels.com/photos/1462637/pexels-photo-1462637.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           imagePosition="right"
         />
       </div>
